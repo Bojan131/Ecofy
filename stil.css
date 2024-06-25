@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  overflow-x: hidden;
+  background-color: #e4eaed;
+}
+
+
+label, input {
+  display: block;
+}
+input {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 10px;
+}
+button {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+/*
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+ne treba jer overflow: none;  sklonjen !
+ima dovoljno elemenata na strani za skrol
+*/
+
+footer{
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  background-color: #35424A;
+}
+
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: #35424A;
+}
+#main-nav #logo {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 4px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#main-nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+#main-nav ul a {
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+#main-nav ul .current{
+  color:#e8491d;
+  font-size: 18px;
+  font-weight:bold;
+}
+
+#main-nav a:hover{
+  color:#cccccc;
+  font-weight: bold;
+}
+
+.play{
+  color: #e8491d;
+}
+
+.current {
+  color:red;
+}
+
+#showcase{
+    min-height:650px;
+    background:url('slika1.jpg') no-repeat -850px;
+    text-align:center;
+    color:#ffffff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+#showcase h1{
+
+  font-size: 55px;
+  padding-top: 200px;
+}
+#showcase p{
+  padding-top: 50px;
+  color: #e8491d;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+
+#image {
+  height: 100px;
+}
+
+button:hover{
+  color:orange;
+}
+
+#form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 20px 30%;
+  padding-bottom: 150px;
+}
+#form-wrapper #login-form, #form-wrapper #register-form {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
