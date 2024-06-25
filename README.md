@@ -23,8 +23,8 @@ Ecofy is a basic PHP application designed to simulate a music streaming platform
 5. Open your web browser and navigate to http://localhost:8000
 
 ### Usage
-**Sign Up:** Create a new account by providing a username and password.
-**Log In:** Log in with your credentials to access the application.
-**Explore Songs:** Browse the list of available songs.
-**Create Playlists:** Add your favorite songs to your personal playlists.
-**View Artists:** See the artist information for each song.
++ **Sign Up:** Create a new account by providing a username and password.
++ **Log In:** Log in with your credentials to access the application.
++ **Explore Songs:** Browse the list of available songs.
++ **Create Playlists:** Add your favorite songs to your personal playlists.
++ **View Artists:** See the artist information for each song.
